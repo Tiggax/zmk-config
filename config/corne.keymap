@@ -6,22 +6,32 @@
 
 #include <behaviors.dtsi>
 #include "keys_sl.h"
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     behaviors {
-        mod_hold: mod_hold {
+        htL: htL {
             compatible = "zmk,behavior-hold-tap";
-            label = "MOD_HOLD";
+            label = "HTL";
+            bindings =
+                <&kp>,
+                <&kp>;
+
+            #binding-cells = <2>;
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39>;
+            tapping-term-ms = <100>;
+        };
+        htR: htR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HTR";
             bindings =
                 <&kp>,
                 <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <100>;
-            hold-trigger-key-positions = <>;
-            flavor = "tap-preferred";
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 38>;
         };
     };
 
@@ -36,10 +46,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                 &kp Q                      &kp W     &kp E  &kp R      &kp T      &kp Z  &kp U      &kp I    &kp O           &kp P        &kp BSPC
-  &kp ESC  &mod_hold LCTRL SL_A  &mod_hold LEFT_SHIFT SL_S     &kp D  &kp F      &kp G      &kp H  &kp J      &kp K    &kp L  &kp SL_C_CARON  &kp SL_S_CARON
-&kp LSHFT                 &kp Y                      &kp X     &kp C  &kp V      &kp B      &kp N  &kp M  &kp COMMA  &kp DOT       &kp MINUS  &kp SL_Z_CARON
-                                                            &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2     &trans
+  &kp TAB         &kp Q              &kp W            &kp E             &kp R      &kp T    &kp SL_Z            &kp U            &kp I              &kp O                  &kp P        &kp BSPC
+  &kp ESC  &htL LCTRL A  &htL LEFT_SHIFT S  &htL LEFT_GUI D   &htL LEFT_ALT F      &kp G       &kp H  &htR LEFT_ALT J  &htR LEFT_GUI K  &htR LEFT_SHIFT L  &htR LCTRL SL_C_CARON  &kp SL_S_CARON
+&kp LSHFT      &kp SL_Y              &kp X            &kp C  &htL RIGHT_ALT V      &kp B       &kp N      &htR RALT M        &kp COMMA            &kp DOT              &kp MINUS  &kp SL_Z_CARON
+                                                   &kp LGUI             &mo 1  &kp SPACE     &kp RET            &mo 2           &trans
             >;
         };
 
