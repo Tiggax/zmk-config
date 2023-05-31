@@ -77,9 +77,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &kp SL_BACKSLASH              &kp N7        &kp N8            &kp N9     &kp SL_SLASH      &kp HOME             &kp PAGE_DOWN       &kp PAGE_UP                      &kp END        &trans  &trans
-&trans  &htL LCTRL SL_PLUS  &htL LEFT_SHIFT N4  &htL LGUI N5  &htL LEFT_ALT N6  &kp SL_ASTERISK      &kp LEFT  &htR LEFT_ALT DOWN_ARROW  &htR LEFT_GUI UP  &htR LEFT_SHIFT RIGHT_ARROW  &htR LCTRL 0  &trans
-&trans              &kp N0              &kp N1        &kp N2      &htL RALT N3            &kp 0    &kp INSERT     &htR RIGHT_ALT DELETE            &trans                       &trans        &trans  &trans
+&trans    &kp SL_BACKSLASH              &kp N7        &kp N8            &kp N9     &kp SL_SLASH      &kp HOME             &kp PAGE_DOWN       &kp PAGE_UP                      &kp END                 &trans           &trans
+&trans  &htL LCTRL SL_PLUS  &htL LEFT_SHIFT N4  &htL LGUI N5  &htL LEFT_ALT N6  &kp SL_ASTERISK      &kp LEFT  &htR LEFT_ALT DOWN_ARROW  &htR LEFT_GUI UP  &htR LEFT_SHIFT RIGHT_ARROW  &htR LCTRL SL_C_ACUTE  &kp SL_D_STROKE
+&trans              &kp N0              &kp N1        &kp N2      &htL RALT N3            &kp 0    &kp INSERT     &htR RIGHT_ALT DELETE            &trans                       &trans                 &trans           &trans
                                                       &trans            &trans           &trans        &trans                     &mo 3            &trans
             >;
 
