@@ -65,7 +65,7 @@
   &kp TAB         &kp Q              &kp W            &kp E             &kp R      &kp T    &kp SL_Z            &kp U            &kp I              &kp O                  &kp P        &kp BSPC
   &kp ESC  &htL LCTRL A  &htL LEFT_SHIFT S  &htL LEFT_GUI D   &htL LEFT_ALT F      &kp G       &kp H  &htR LEFT_ALT J  &htR LEFT_GUI K  &htR LEFT_SHIFT L  &htR LCTRL SL_C_CARON  &kp SL_S_CARON
 &kt LSHFT      &kp SL_Y              &kp X            &kp C  &htL RIGHT_ALT V      &kp B       &kp N      &htR RALT M        &kp COMMA            &kp DOT           &kp SL_MINUS  &kp SL_Z_CARON
-                                                     &trans             &mo 1  &kp SPACE     &kp RET            &mo 2           &trans
+                                                  &kp LCTRL             &mo 1  &kp SPACE     &kp RET            &mo 2     &kp LEFT_GUI
             >;
         };
 
