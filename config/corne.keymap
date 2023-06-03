@@ -43,13 +43,20 @@
             flavor = "tap-unless-interrupted";
             hold-trigger-on-release;
         };
+        capyword: capyword {
+            compatible = "zmk,behavior-caps-word";
+            label = "CAPYWORD";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            continue-list = <A B D E G H I J K L M N O P R S T U V W X Y Z>;
+        };
     };
 
     combos {
         compatible = "zmk,combos";
 
         new_combo {
-            bindings = <&caps_word>;
+            bindings = <&capyword>;
             key-positions = <24 12>;
         };
     };
