@@ -77,6 +77,8 @@
 &kp LSHFT      &kp SL_Y              &kp X            &kp C  &htL RIGHT_ALT V      &kp B       &kp N      &htR RALT M        &kp COMMA            &kp DOT           &kp SL_MINUS  &kp SL_Z_CARON
                                                   &kp LCTRL             &mo 1  &kp SPACE     &kp RET            &mo 2     &kp LEFT_GUI
             >;
+
+            label = "CORNE";
         };
 
         lower {
