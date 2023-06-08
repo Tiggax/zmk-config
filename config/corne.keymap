@@ -108,8 +108,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp SL_TILDE  &kp SL_QUESTION      &kp SL_CARET  &kp SL_DEGREE  &kp SL_DOT_ABOVE        &kp SL_UMLAUT            &kp SL_GRAVE  &kp SL_LPAR  &kp SL_RPAR  &kp SL_GREATER_THAN       &trans  &trans
-&kp SL_PERCENT      &kp SL_EXCL  &kp SL_AMPERSAND    &kp SL_HASH     &kp SL_DOLLAR         &kp SL_EQUAL              &kp SL_SQT  &kp SL_LBKT  &kp SL_RBKT     &kp SL_LESS_THAN  &kp SL_PIPE  &trans
+  &kp SL_TILDE      &kp SL_EXCL      &kp SL_CARET  &kp SL_DEGREE  &kp SL_DOT_ABOVE        &kp SL_UMLAUT            &kp SL_GRAVE  &kp SL_LPAR  &kp SL_RPAR  &kp SL_GREATER_THAN       &trans  &trans
+&kp SL_PERCENT  &kp SL_QUESTION  &kp SL_AMPERSAND    &kp SL_HASH     &kp SL_DOLLAR         &kp SL_EQUAL              &kp SL_SQT  &kp SL_LBKT  &kp SL_RBKT     &kp SL_LESS_THAN  &kp SL_PIPE  &trans
         &trans   &kp SL_AT_SIGN      &kp SL_CARON  &kp SL_OGONEK      &kp SL_ACUTE  &kp SL_DOUBLE_ACUTE    &kp SL_DOUBLE_QUOTES  &kp SL_LBRC  &kp SL_RBRC               &trans       &trans  &trans
                                                           &trans             &mo 3               &trans                  &trans       &trans       &trans
             >;
