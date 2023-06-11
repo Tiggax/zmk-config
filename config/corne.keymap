@@ -141,10 +141,10 @@
 
         game {
             bindings = <
-       &kp TAB  &kp Q  &kp W  &kp E  &kp R   &kp T    &trans  &trans  &trans  &trans  &trans  &trans
-     &kp LCTRL  &kp A  &kp S  &kp D  &kp F   &kp G    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Y  &kp X  &kp C  &kp V   &kp B    &trans  &trans  &trans  &trans  &trans  &trans
-                              &mo 7  &mo 6  &trans    &trans   &mo 3  &trans
+       &kp TAB     &kp Q  &kp W  &kp E  &kp R   &kp T    &trans  &trans  &trans  &trans  &trans  &trans
+     &kp LCTRL     &kp A  &kp S  &kp D  &kp F   &kp G    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp SL_Y  &kp X  &kp C  &kp V   &kp B    &trans  &trans  &trans  &trans  &trans  &trans
+                                 &mo 7  &mo 6  &trans    &trans   &mo 3  &trans
             >;
 
             label = "GAME";
@@ -163,10 +163,10 @@
 
         game_extend {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans   &kp Z   &kp U    &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans   &kp H   &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans   &kp N   &kp M    &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans  &trans    &trans  &trans  &trans
+&kp ESCAPE  &trans  &trans  &trans  &kp SL_Z   &kp U    &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans  &trans  &trans     &kp H   &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans  &trans  &trans     &kp N   &kp M    &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans    &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "GAME_EXT";
