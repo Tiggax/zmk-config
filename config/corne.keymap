@@ -29,7 +29,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <180>;
             global-quick-tap;
         };
         htR: htR {
@@ -44,7 +44,7 @@
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 38>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <180>;
             global-quick-tap;
         };
         capyword: capyword {
