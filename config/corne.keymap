@@ -30,7 +30,6 @@
             flavor = "tap-preferred";
             hold-trigger-on-release;
             quick-tap-ms = <180>;
-            global-quick-tap;
         };
         htR: htR {
             compatible = "zmk,behavior-hold-tap";
@@ -45,7 +44,6 @@
             flavor = "tap-preferred";
             hold-trigger-on-release;
             quick-tap-ms = <180>;
-            global-quick-tap;
         };
         capyword: capyword {
             compatible = "zmk,behavior-caps-word";
