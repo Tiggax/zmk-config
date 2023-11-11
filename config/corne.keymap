@@ -154,7 +154,7 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "GAME_NUM";
+            label = "GAME>NUM";
         };
 
         game_extend {
@@ -165,7 +165,7 @@
                             &trans  &trans    &trans    &trans  &trans  &trans
             >;
 
-            label = "GAME_EXT";
+            label = "GAME>EXT";
         };
     };
 };
